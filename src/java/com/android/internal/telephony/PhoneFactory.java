@@ -595,4 +595,8 @@ public class PhoneFactory {
             ipw.flush();
         }
     }
+
+    public static SubscriptionInfoUpdater getSubscriptionInfoUpdater() {
+        return sSubInfoRecordUpdater;
+    }
 }
